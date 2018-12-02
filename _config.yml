@@ -23,7 +23,7 @@ description              : "My personal website and blog."
 url                      : "https://mattir.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mattir/mattir.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -61,7 +61,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -104,14 +104,14 @@ analytics:
 # Site Author
 author:
   name             : "Matt Gilbert"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A coffee-swigging, engineer, data analyst, and web designer."
+  avatar           : "/assets/images/me8bit.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "An eBike builder and cyclist, engineer, data analyst, and web designer. Dabbling in Python, PHP, HTML, CSS, and things that can electrocute you. Lover of cats, coffee, beer, and pizza."
   location         : "Atlanta, GA"
-  email            : "web@mattir.com"
+  email            : "hello@mattir.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:web@mattir.com"
+      # url: "mailto:web@mattir.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://mattir.com"
@@ -155,6 +155,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -286,8 +287,17 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: false
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
