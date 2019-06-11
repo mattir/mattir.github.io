@@ -9,6 +9,83 @@ tags:
 header:
   teaser: "/assets/images/ssebike/ssebike-20.jpg"
   image: "/assets/images/ssebike/ssebike-20-leader.jpg"
+gallery:
+  - url: /assets/images/ssebike/ssebike-1.jpg
+    image_path: /assets/images/ssebike/ssebike-1.jpg
+    alt: "bike box"
+    title: "Here is how the bike arrived in it's box."
+  - url: /assets/images/ssebike/ssebike-2.jpg
+    image_path: /assets/images/ssebike/ssebike-2.jpg
+    alt: "stock bike"
+    title: "This is the bike in stock form as it shipped from the factory after initial assembly."
+  - url: /assets/images/ssebike/ssebike-3.jpg
+    image_path: /assets/images/ssebike/ssebike-3.jpg
+    alt: "brake calipers"
+    title: "Here's a shot of the stock brake calipers next to the SRAM Red calipers I decided to replace them with."
+  - url: /assets/images/ssebike/ssebike-4.jpg
+    image_path: /assets/images/ssebike/ssebike-4.jpg
+    alt: "handlebars"
+    title: "I replaced the flat bars with some bullhorn bars, which meant also replacing the brake levers."
+  - url: /assets/images/ssebike/ssebike-6.jpg
+    image_path: /assets/images/ssebike/ssebike-6.jpg
+    alt: "motor detail"
+    title: "This is the motor installed on the bike. You can see that its not much larger than a 16-tooth freewheel."
+  - url: /assets/images/ssebike/ssebike-7.jpg
+    image_path: /assets/images/ssebike/ssebike-7.jpg
+    alt: "motor comparison"
+    title: "In this pic I have the motor next to my other ebike that has a 3-speed IGH in the rear wheel. You can see that the motor isn't much larger. I'd say its about the size of an 8 or 11-speed IGH."
+  - url: /assets/images/ssebike/ssebike-8.jpg
+    image_path: /assets/images/ssebike/ssebike-8.jpg
+    alt: "bike build progress 1"
+    title: "I have the handlebars, brakes, wheels, motor, and controller installed, and I'm completing wiring and wrapping the bars."
+  - url: /assets/images/ssebike/ssebike-5.jpg
+    image_path: /assets/images/ssebike/ssebike-5.jpg
+    alt: "bike build progress 2"
+    title: "Wiring is now complete except for the battery connection, and the bars are wrapped."
+  - url: /assets/images/ssebike/ssebike-15.jpg
+    image_path: /assets/images/ssebike/ssebike-15.jpg
+    alt: "battery cell layout"
+    title: "I am building a 13s2p battery and this is how I decided to orient the cells to fit in the bag."
+  - url: /assets/images/ssebike/ssebike-16.jpg
+    image_path: /assets/images/ssebike/ssebike-16.jpg
+    alt: "spot welded cells"
+    title: "I've spot welded all the cells together to form one cohesive battery and attached the BMS board."
+  - url: /assets/images/ssebike/ssebike-17.jpg
+    image_path: /assets/images/ssebike/ssebike-17.jpg
+    alt: "bms connected"
+    title: "I've now gotten the BMS all wired up to the battery. The plug you can see is for charging the battery."
+  - url: /assets/images/ssebike/ssebike-18.jpg
+    image_path: /assets/images/ssebike/ssebike-18.jpg
+    alt: "completed battery"
+    title: "This is a size comparison of the battery with a can of beer. The blue cover is a shrink-wrap that protects the battery wires from damage."
+  - url: /assets/images/ssebike/ssebike-9.jpg
+    image_path: /assets/images/ssebike/ssebike-9.jpg
+    alt: "battery bag"
+    title: "Here's the seat bag that the battery is going in to. I cut a slit under the seat to run the wires."
+  - url: /assets/images/ssebike/ssebike-19.jpg
+    image_path: /assets/images/ssebike/ssebike-19.jpg
+    alt: "on-off switch"
+    title: "This is a close-up of the on-off power switch I installed in the battery bag. This powers things off at the controller."
+  - url: /assets/images/ssebike/ssebike-10.jpg
+    image_path: /assets/images/ssebike/ssebike-10.jpg
+    alt: "bike with bag"
+    title: "The bag with the battery fits nicely under the seat, and doesn't look out of place."
+  - url: /assets/images/ssebike/ssebike-11.jpg
+    image_path: /assets/images/ssebike/ssebike-11.jpg
+    alt: "3 button throttle"
+    title: "This is the throttle I developed. The three buttons work in series so that if you press the top one you get 33% power, press the 1st and 2nd and you get 66% power, and press all three and you get 100% power."
+  - url: /assets/images/ssebike/ssebike-12.jpg
+    image_path: /assets/images/ssebike/ssebike-12.jpg
+    alt: "throttle mounted"
+    title: "Here's how that throttle is fitted to the handlebars."
+  - url: /assets/images/ssebike/ssebike-21.jpg
+    image_path: /assets/images/ssebike/ssebike-21.jpg
+    alt: "the finished bike 1"
+    title: "Here she is in all her glory."
+  - url: /assets/images/ssebike/ssebike-20.jpg
+    image_path: /assets/images/ssebike/ssebike-20.jpg
+    alt: "the finished bike 2"
+    title: "One more shot from the side."
 ---
 
 ## Building an ultralight, clean, single-speed ebike
@@ -38,25 +115,7 @@ One other challenge I ran into was the throttle for the bike. I initially wanted
 
 I know you want to see more pics of the bike and build, so without further ado, here are a bunch of pics of the build process and finished bike.
 
-{% include figure image_path="assets/images/ssebike/ssebike-1.jpg" alt="bike box" caption="Here is how the bike arrived in it's box." %}
-{% include figure image_path="assets/images/ssebike/ssebike-2.jpg" alt="stock bike" caption="This is the bike in stock form as it shipped from the factory after initial assembly." %}
-{% include figure image_path="assets/images/ssebike/ssebike-3.jpg" alt="brake calipers" caption="Here's a shot of the stock brake calipers next to the SRAM Red calipers I decided to replace them with." %}
-{% include figure image_path="assets/images/ssebike/ssebike-4.jpg" alt="handlebars" caption="I replaced the flat bars with some bullhorn bars, which meant also replacing the brake levers." %}
-{% include figure image_path="assets/images/ssebike/ssebike-6.jpg" alt="motor detail" caption="This is the motor installed on the bike. You can see that its not much larger than a 16-tooth freewheel." %}
-{% include figure image_path="assets/images/ssebike/ssebike-7.jpg" alt="motor comparison" caption="In this pic I have the motor next to my other ebike that has a 3-speed IGH in the rear wheel. You can see that the motor isn't much larger. I'd say its about the size of an 8 or 11-speed IGH." %}
-{% include figure image_path="assets/images/ssebike/ssebike-8.jpg" alt="bike build progress 1" caption="I have the handlebars, brakes, wheels, motor, and controller installed, and I'm completing wiring and wrapping the bars." %}
-{% include figure image_path="assets/images/ssebike/ssebike-5.jpg" alt="bike build progress 2" caption="Wiring is now complete except for the battery connection, and the bars are wrapped." %}
-{% include figure image_path="assets/images/ssebike/ssebike-15.jpg" alt="battery cell layout" caption="I am building a 13s2p battery and this is how I decided to orient the cells to fit in the bag." %}
-{% include figure image_path="assets/images/ssebike/ssebike-16.jpg" alt="spot welded cells" caption="I've spot welded all the cells together to form one cohesive battery and attached the BMS board." %}
-{% include figure image_path="assets/images/ssebike/ssebike-17.jpg" alt="bms connected" caption="I've now gotten the BMS all wired up to the battery. The plug you can see is for charging the battery." %}
-{% include figure image_path="assets/images/ssebike/ssebike-18.jpg" alt="completed battery" caption="This is a size comparison of the battery with a can of beer. The blue cover is a shrink-wrap that protects the battery wires from damage." %}
-{% include figure image_path="assets/images/ssebike/ssebike-9.jpg" alt="battery bag" caption="Here's the seat bag that the battery is going in to. I cut a slit under the seat to run the wires." %}
-{% include figure image_path="assets/images/ssebike/ssebike-19.jpg" alt="on-off switch" caption="This is a close-up of the on-off power switch I installed in the battery bag. This powers things off at the controller." %}
-{% include figure image_path="assets/images/ssebike/ssebike-10.jpg" alt="bike with bag" caption="The bag with the battery fits nicely under the seat, and doesn't look out of place." %}
-{% include figure image_path="assets/images/ssebike/ssebike-11.jpg" alt="3 button throttle" caption="This is the throttle I developed. The three buttons work in series so that if you press the top one you get 33% power, press the 1st and 2nd and you get 66% power, and press all three and you get 100% power." %}
-{% include figure image_path="assets/images/ssebike/ssebike-12.jpg" alt="throttle mounted" caption="Here's how that throttle is fitted to the handlebars." %}
-{% include figure image_path="assets/images/ssebike/ssebike-21.jpg" alt="the finished bike" caption="Here she is in all her glory." %}
-{% include figure image_path="assets/images/ssebike/ssebike-20.jpg" alt="the finished bike" caption="One more shot from the side." %}
+{% include gallery caption="The stealth bike." %}
 
 ## The ride experience
 
