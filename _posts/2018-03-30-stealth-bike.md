@@ -115,7 +115,7 @@ One other challenge I ran into was the throttle for the bike. I initially wanted
 
 I know you want to see more pics of the bike and build, so without further ado, here are a bunch of pics of the build process and finished bike.
 
-{% include gallery caption="The stealth bike." %}
+{% include gallery caption="The stealth bike. Click the thumbnails for a larger version and caption." %}
 
 ## The ride experience
 
